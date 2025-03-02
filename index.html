@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Yemenis for Trump</title>
+   
+   <style>
+
+      * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+      }
+
+      p {
+         color: white;
+         font-family: "Crimson Text", serif;
+          font-size: 30px;
+          font-weight: 500;
+          max-width: 500px;
+          width: 600%;
+          margin: 30px auto;
+          text-align: left;
+      }
+      div.big-container {
+
+        display: flex;
+        justify-content: center;
+        max-width: 768px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+      div.photo-container {
+        font-size: 24px;
+        background-color: #150430;
+        width: 100%;
+         height: auto;
+         max-height: 100%;
+         object-fit: cover;
+
+      }
+      .container {
+         display: flex;
+         /* grid-template-columns: 1fr 2fr; */
+         min-height: 0;
+         width: 100vw;
+         height: 100vh;
+
+      }
+      
+      img {
+         width: 100%;
+      }
+
+      body {
+         font-family: "EB Garamond", serif;
+         min-height: 100vh;
+         background-color: #251f47;
+      }
+
+      .box-1, .box-2 {
+         background-color: #150430;
+         color: white;
+         font-size: 2rem;
+         padding: 0.5rem;
+         display: flex;
+         
+      }
+   
+      .box-1 {
+         font-size: 50px;
+         font-weight: 500;
+         display: flex;
+         flex: 1; 
+         flex-direction: column;
+         padding: 2rem;
+         justify-content: center;
+       }
+
+
+      .caption {
+         font-size: 23px;
+         font-style: italic;
+         font-weight: 100;
+         text-align: right;
+         max-width: fit-content;
+         color: white;
+         text-align: center;
+         padding-top: -10px;
+      }
+
+      .credit {
+         font-size: 16px;
+         text-transform: uppercase;
+         letter-spacing: 0.05em;
+         color: #D2D6FA;
+
+      }
+
+      h1 {
+         font-size: 65px;
+         max-width: 100%;
+         margin: 10px;
+         font-family: "Fira Sans Condensed", serif;
+         word-wrap: break-word;
+         
+
+
+      }
+
+      h2 {
+         font-size: 30px;
+         font-weight: 100;
+         font-style: italic;
+         max-width: 100%;
+         padding-top: 30px;
+         margin: 20px;
+         word-wrap: break-word;
+         overflow: hidden;
+      }
+
+      h3 {
+            font-family: "Crimson text", serif;
+            font-size: 20px;
+            line-height: 21px;
+            font-weight: 700;
+            text-transform: uppercase;
+            justify-content: left;
+            padding-top: 30px;
+            margin: 20px;
+            word-wrap: break-word;
+            overflow: hidden;
+      }  
+
+      .flex-container {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+      h4, h5 {
+         color: white;
+         font-size: 30px;
+         font-weight: 600;
+         font-family: "Fira Sans Condensed", serif;
+         letter-spacing: 0.05em;
+         padding-right: 10px;
+         text-align: center;
+         width: 100%;
+   }
+
+
+      #topper-img {
+         width: 100%;
+         height: 100%;
+         padding-top: 100px;
+         padding-right: 20px;
+         object-fit: cover;
+       
+      }
+
+      #sammy-img {
+         width: 100%; 
+         max-width: 700px; 
+         height: auto; 
+         margin: 20px auto; 
+         display: block; 
+         text-align: center;
+      }
+      #nypd-img {
+         width: 100%; 
+         max-width: 700px; 
+         height: auto; 
+         margin: 20px auto; 
+         display: block; 
+         text-align: center;
+      }
+
+      #flag-img {
+         width: 100%; 
+         max-width: 700px; 
+         height: auto; 
+         margin: 20px auto; 
+         display: block; 
+         text-align: center;
+      }
+
+      #pullquote {
+         font-size: 40px;
+         font-weight: 500;
+         text-align: center;
+         color: #DCB301;
+         margin: 20px auto;
+         max-width: 600px;
+         font-style: italic;
+         font-family: "Fira Sans Condensed", serif;
+         border-left: #D2D6FA;
+         border-right: #D2D6FA;
+         border-top: #251f47;
+         border-bottom: #251f47;
+         border-style: solid;
+         border-width: 20px;
+         padding: 20px;
+         
+
+      }
+    
+      @media (min-width: 601px) and (max-width: 1199px) { 
+
+
+         div.photo-container {
+            max-width: 525px;
+            padding: 20px; 
+         } 
+
+         div.photo-container > h2 {
+            padding-left: 0;
+         }
+
+         div.photo-container > img {
+            float: left;
+            width: 50%;
+            margin-right: 10px;
+         }
+
+
+}
+
+
+
+}
+
+   </style>
+</head>  
+<body>
+      <div class="container">
+         <div class="box-1">
+            <h1>Yemeni Americans Who Fought Trump’s Muslim Ban, Now <span style="color: #DCB301;" > Voted</span> for Him</h1>
+            <h2>After organizing a major strike against Trump’s travel ban on Muslim-majority countries in 2017, Yemeni-American bodega owners in the South Bronx have overwhelmingly shifted their support towards Trump in the 2024 election, according to a series of interviews.</h2>
+            <h3>By Marina Samuel and Mrwa Abbas</h3>
+         </div>
+
+         <div class="big-container">
+               <div class="photo-container" id="topper-img">
+                   <img src="bodegastrike.jpg"  alt="Yemeni bodega owners at a rally outside Brooklyn Borough Hall in protest of President Donald Trump’s Muslim travel ban">
+                   <p class="caption">Yemeni bodega owners organized a rally outside Brooklyn Borough Hall in protest of President Donald Trump’s Muslim travel ban, Feb. 2, 2017. </p>
+                   <p class="credit">Photo credit: Ben Fractenberg/DNAInfo</p>    
+               </div>
+         </div>
+      </div>
+       
+       <p>Yemeni-American bodega owners in the Bronx, once key organizers of a major strike against then-President Donald Trump’s travel ban in New York, say they’ve shifted their support towards him. South Bronx Yemeni community members cited issues like crime, the economy, and the Israel-Gaza war as reasons for the change.</p>
+
+       <p>Despite prior vocal criticism of the Trump administration, most Yemeni Americans interviewed in Mott Haven and Melrose after the 2024 election said they voted for the president-elect. While no comprehensive polling focused on Yemeni American voters in New York, national exit polls by the Council on American-Islamic Relations (CAIR) showed Jill Stein receiving over 50% of the Muslim vote, with the rest evenly split between Trump and Vice President Kamala Harris.</p>
+
+       <p>“Everything is getting expensive; we can’t live. When Trump was president, everything was a little better,” said Sammy Ali, an employee at a deli in Mott Haven, who noted that he and his family all voted for Trump</p>
+      
+      <div class="container" id="sammy-img">  
+       <img src="sammyali.jpg" alt= "Sammy Ali, a bodega employee sitting at the counter">
+           <p class="caption">Sammy Ali, 61, a bodega employee who voted for Trump</p>
+           <span class="credit">  Photo credit: Mrwa Abbas</span></p>
+         </div>
+
+       <p>The Yemeni community vehemently opposed one of the signature policies of Trump’s first presidency, organizing a bodega strike in 2017 and closing their shops for a day in protest against the “Muslim Ban,” a series of executive orders prohibiting immigration to the United States from seven predominantly Muslim countries, including Yemen.</p>
+
+       <p>At a Republican donor event in September, Trump vowed to reinstate a travel ban against countries he described as “terror infested areas like the Gaza Strip.” Despite these threats, several people who spoke to the Mott Haven Herald and Hunts Point Express did not believe that the travel restrictions would go into effect under his presidency.</p>
+      
+       <div id="pullquote"> “Yemenis are not a small community anymore. We all shifted [towards Trump].”</div>
+
+       <p>“This time around, it seems more geared towards illegal immigration from South America, the Caribbean, and Africa but I don’t think it stops at just them. It’s a continuation of the same efforts and mindset of the 2016 administration,” said Gabriel Hernandez, community and external affairs manager of Yemeni American Merchants Association (YAMA). Still, he acknowledged that many members nonetheless threw their support to Trump.</p>
+      
+       <p>“Yemenis are not a small community anymore,” said David Mozalem, owner of 2020 Deli and Convenience in Melrose. “We all shifted [towards Trump].”</p>
+      
+       <p>YAMA estimates there are approximately 50,000 Yemenis in the city with approximately 6,000 bodegas owned by Yemeni-Americans, more than half of the city’s total.</p>
+      
+       <p>Mozalem, who has owned businesses for over 20 years, said he voted for Trump because his store was the target of three crimes in the past year. In one incident, an assailant attacked Mozalem’s 16-year-old son, who was working as a cashier. Mozalem said he wasn’t satisfied with the police response to the three incidents.</p>
+       
+       <div class="container" id="nypd-img">  
+       <img src="nypd.jpg" alt= "NYPD surveillance sign at Mike's Family Deli in Melrose">
+           <p class="caption"> NYPD surveillance sign at Mike' Family Deli in Melrose.</p>
+           <span class="credit">  Photo credit: Marina Samuel</span></p>
+         </div>
+   
+      <h4>‘Trump <span style="color: #DCB301">Loves </span> Business’</h4>
+      </div>
+
+       <p>Bodegas are a central feature of any New York City neighborhood, providing groceries, hot food, and many everyday items in one place. Over the last 20 years, a majority of these bodegas have come under ownership of the Yemeni-American community, learning the trade from their Latino neighbors.</p>
+       
+       <p>“Trump loves business,” said Ali Syed, owner of Brook Ave Convenience. His sales had been down in the last two years and attributed it to the poor economy during Joe Biden’s presidency. In his first presidential election as a citizen, Syed cast his vote for Trump.</p>
+      
+       <p>His sentiments are shared by many, according to research conducted by the Council on Islamic American Relations.</p>
+      
+       <p>“In an August poll, CAIR found that 29% of Muslim voters identify as fiscally conservative, and another 25% identify as socially conservative,” explained Robert McCaw, director of CAIR’s National Government Affairs Department. The survey, conducted before the election and analyzed by University of West Georgia researchers, included responses from over 2,500 American Muslim voters. While not all American Muslims are Arab, Pew Research Center estimates that at least 41% of Muslim Americans identify as white, which includes those who describe their race as Arab, Middle Eastern, or Persian/Iranian. </p>
+      
+       <p>He further explained, “The number of fiscally conservative Muslim voters has remained relatively consistent over the past decade. However, we’ve observed a slight increase in support for the Republican Party during this time, which we attribute more to Biden and [Vice President Kamala] Harris’s handling of the election than to a broader endorsement of the party. That said, a consistent 25 to 30% of Muslims have voted for the Republican Party for the past two decades.” </p>
+
+       <div class="container" id="flag-img"> 
+       <img src="flag.jpg" alt= "An American flag hanging vertically in the middle of a bodega">
+           <p class="caption"> An American flag inside a Brooklyn bodega.</p>
+           <span class="credit">  Photo credit: Mrwa Abbas</span></p>
+
+       <p>Before 2001, Republican politicians courted Arab-American voters, whose entrepreneurial and socially conservative values aligned with the party. But after 9/11, the U.S. invasions of Iraq and Afghanistan, the targeting of Arab and other Muslim Americans for detention, registration and government surveillance of Muslim religious institutions  launched by President George W. Bush’s War on Terror, that the community’s relationship with the party faltered.</p>
+      
+       <h5>The Democrats' <span style="color: #DCB301">Failure</span> to Act in Gaza </h5>
+      </div>
+
+       <p>The Israel-Gaza war has been a huge deciding factor for Muslim and Arab voters in this election, with 81% Arab Americans identifying the conflict as a deciding factor in their vote, according to the Arab American Institute. Meanwhile, the Democratic Party has made conflicting statements of calls for a ceasefire while increasing military aid to the country. </p>
+      
+       <p>Elzopide, an employee at Life Saver’s Deli in Mott Haven, who asked to only be referred to by his last name, said he voted for the first time along with his family for Trump. </p>
+      
+       <div class="container" id="flag-img"> 
+         <img src="yemengaza.jpg" alt= "Protesters at a rally for Gaza in the Little Yemen neighborhood of the Bronc">
+             <p class="caption"> Rally for Gaza in Little Yemen</p>
+             <span class="credit">  Photo credit: World Socialist Web Site</span></p>
+
+       <p>“Trump said he was going to stop the war in Gaza. I don’t think Kamala meant it.” </p>
+      
+       <p>Despite Trump’s stated support for Israel, many interviewees felt alienated by the Democratic Party’s failure to end the crisis in Gaza. </p>
+      
+       <p>“I started to hate the Democrats because of Biden,” said Mo Obq, an employee at Good Mood Smoke and Deli, who did not vote.</p>
+      
+       <p>Hernandez, of the Yemeni American Merchants Association said the turn to Trump was a measure of the community’s desperation. “What are we supposed to do if the one administration that’s been here consistently doesn’t make any steps forward?” </p>
+      </body>
+   </div>
+</html>
